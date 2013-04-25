@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4548
+
+This plugin adds a :Vagrant command that runs vagrant, with tab completion of subcommands. It also sets up Vagrantfiles to be highlighted as Ruby.
