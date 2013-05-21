@@ -1,4 +1,4 @@
-# vagrant.vim
+# vim-vagrant
 
 This plugin adds a `:Vagrant` command that runs vagrant, with tab
 completion of subcommands. It also sets up Vagrantfiles to be highlighted
@@ -18,3 +18,4 @@ If you prefer to use something besides pathogen, go ahead.
 Written by @markcornick. I fumbled my way through VimL by reading
 @tpope's code, so thanks to him.
 
+Licensed under the MIT license.
