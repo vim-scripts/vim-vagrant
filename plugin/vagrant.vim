@@ -7,7 +7,31 @@ endif
 let g:loaded_vagrant = 1
 
 function! s:commands(A, L, P)
-  return "box\ndestroy\nhalt\ninit\npackage\nplugin\nprovision\nreload\nresume\nssh\nssh-config\nstatus\nsuspend\nup"
+  return join([
+  \ "box",
+  \ "connect",
+  \ "destroy",
+  \ "global-status",
+  \ "halt",
+  \ "help",
+  \ "init",
+  \ "login",
+  \ "package",
+  \ "plugin",
+  \ "provision",
+  \ "push",
+  \ "rackspace",
+  \ "rdp",
+  \ "reload",
+  \ "resume",
+  \ "share",
+  \ "ssh",
+  \ "ssh-config",
+  \ "status",
+  \ "suspend",
+  \ "up",
+  \ "version"
+  \ ], "\n")
 endfunction
 
 augroup vagrant
